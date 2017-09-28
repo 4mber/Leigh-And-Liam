@@ -148,7 +148,7 @@ a:hover { color: #001059; }
 #email:hover { opacity: 1.0; }
 .vert {
     transform: rotate(-90deg);
-    margin: 22vh 0 0 -315px;
+    margin: 20vh 0 0 -315px;
     display: none;
 }
 .slash {
