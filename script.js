@@ -16,7 +16,7 @@ if ( $(window).width() > 1024) {
     });
     // Fades About section into view on scroll
     $(window).scroll(function() {
-        if ($(this).scrollTop()> 750) {
+        if ($(this).scrollTop()> 1000) {
             $('.scrollnext').fadeIn();
         } else {
             $('.scrollnext').fadeOut();
