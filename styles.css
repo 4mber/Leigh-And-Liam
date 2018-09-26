@@ -49,14 +49,20 @@ a:hover { color: #001059; }
     text-align: right;
     width: 99%;
     float: right;
-    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     padding-right: 35px;
+    background-color: #ffffff99;
 }
 #main-left, #main-right {
     width: 40%;
     display: table-cell;
     vertical-align: middle;
-    padding-bottom: 200px;
+    padding-bottom: 0;
+}
+.text-nav {
+    margin-right: 20px;
+    vertical-align: top;
 }
 #right-content { padding-top: 55px; }
 #huge {
@@ -76,7 +82,7 @@ a:hover { color: #001059; }
 }
 #about {
     height: 50vh;
-    margin-top: -165px;
+    margin-top: 200px;
     padding-top: 140px;
 }
 #yt-contain {
@@ -98,6 +104,11 @@ a:hover { color: #001059; }
     display: none;
     opacity: 0.6;
 }
+#more-videos {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
 #ll-circle {
     width: 400px;
     margin-left: 165px;
@@ -108,7 +119,7 @@ a:hover { color: #001059; }
     width: 43%;
     text-align: center;
     float: right;
-    margin: 210px 180px 0 0;
+    margin: 35px 180px 0 0;
     display: none;
 }
 #about-text { font-size: 1.8rem; }
@@ -119,6 +130,10 @@ a:hover { color: #001059; }
     border-radius: 5px;
     border-color: black;
     box-shadow: 1px 1px 8px #383838;
+}
+.fb_iframe_widget  {
+    width: 500px;
+    height: 300px;
 }
 #insta-embed {
     text-align: center;
@@ -174,7 +189,7 @@ a:hover { color: #001059; }
     transition:.3s;
 }
 .social-icon {
-    width: 35px;
+    width: 30px;
     opacity: 0.4;
 }
 .big-social {
