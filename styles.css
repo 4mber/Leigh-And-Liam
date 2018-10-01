@@ -33,6 +33,9 @@ hr.content-rule {
     width: 100%;
     margin-bottom: 0;
 }
+.muted {
+    color: #757ea3;
+}
 .footer {
     padding: 100px 0 25px 0;
 }
