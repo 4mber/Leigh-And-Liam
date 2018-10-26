@@ -39,6 +39,10 @@ hr.content-rule {
 .footer {
     padding: 100px 0 25px 0;
 }
+.live-vid {
+    width: 49%;
+    display: inline-block;
+}
 #right-foot {
     text-align: right;
 }
@@ -329,6 +333,11 @@ hr.content-rule {
     #insta-embed {
         padding-top: 20px;
         height: auto;
+    }
+}
+@media screen and (max-width: 1074px) {
+    .live-vid {
+        display: block;
     }
 }
 @media screen and (max-width: 750px) {
