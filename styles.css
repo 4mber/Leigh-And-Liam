@@ -209,6 +209,10 @@ hr.content-rule {
     width: 75%;
     margin: auto;
 }
+#insta-embed-press {
+    text-align: center;
+    padding-top: 50px;
+}
 #contact {
     background-image: url(images/BG.png);
     width: 100%;
@@ -266,6 +270,7 @@ hr.content-rule {
 }
 .social-icon:hover, .big-social:hover { opacity: 0.8; }
 .bigSM { height: 250px; }
+.bigSMP { height: 190px; }
 #press-header {
     font-size: 100px;
 }
@@ -338,6 +343,7 @@ hr.content-rule {
 @media screen and (max-width: 1074px) {
     .live-vid {
         display: block;
+        width: 100%;
     }
 }
 @media screen and (max-width: 750px) {
