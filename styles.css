@@ -33,6 +33,31 @@ hr.content-rule {
     width: 100%;
     margin-bottom: 0;
 }
+.button {
+    background-color: #011459;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.2), 0 3px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    opacity: 0.5;
+}
+.button:hover {
+    box-shadow: none;
+    opacity: 1.0;
+}
+.small-button {
+    font-size: 14px;
+    padding: 5px 10px;
+}
 .muted {
     color: #757ea3;
 }
