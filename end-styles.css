@@ -1,0 +1,93 @@
+
+/* Fix Events Widget */
+
+.bit-widget .bit-top-track-button {
+	display: none;
+}
+.bit-widget .bit-offers, .bit-widget .bit-rsvp {
+	border-radius: 0.25rem;
+}
+.bit-widget .bit-event .bit-offers-text, .bit-widget .bit-event .bit-rsvp {
+	text-transform: none;
+}
+.bit-widget.bit-layout-ipad .bit-event .bit-button {
+    width: 120px;
+}
+.bit-widget .bit-event .bit-button, .bit-widget .bit-event .bit-offers-text {
+	font-weight: 400;
+	padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.bit-widget .bit-venue, .bit-widget .bit-clickable  {
+	color: #44a3f7;
+	transition: 0.5s linear;
+	 -webkit-transition: 0.5s linear;
+	 -moz-transition: 0.5s linear;
+	 -o-transition: 0.5s linear;
+}
+.bit-widget .bit-offers {
+    background-color: #44a3f7;
+    border: 1px solid #44a3f7;
+    transition: 0.5s linear;
+	 -webkit-transition: 0.5s linear;
+	 -moz-transition: 0.5s linear;
+	 -o-transition: 0.5s linear;
+}
+.bit-widget .bit-rsvp {
+	color: #44a3f7;
+    border: 1px solid #44a3f7;
+    transition: 0.5s linear;
+     -webkit-transition: 0.5s linear;
+	 -moz-transition: 0.5s linear;
+	 -o-transition: 0.5s linear;
+}
+
+
+
+.bit-widget .bit-venue:hover, .bit-widget .bit-clickable:hover  {
+	color: #9528d6;
+}
+.bit-widget .bit-offers:hover {
+    background-color: #9528d6;
+    border: 1px solid #9528d6;
+}
+.bit-widget .bit-rsvp:hover {
+	color: #9528d6;
+    border: 1px solid #9528d6;
+}
+
+@media (max-width: 992px) {
+	#about-liam {
+		padding-left: 0;
+	}
+	#about-leigh {
+		padding-right: 0;
+	}
+	.col-lg-6 {
+	    width: 50%;
+	}
+}
+
+@media (max-width: 576px) {
+	.fixed-top {
+	    position: sticky;
+	}
+}
+
+
+@media (max-width: 500px) {
+	#about-liam {
+		padding-left: 20px;
+	}
+	#about-leigh {
+		padding-right: 20px;
+	}
+	.rounded-circle {
+		width: 180px;
+		height: 180px;
+	}
+	.col-lg-6 {
+		padding: 0;
+	}
+}

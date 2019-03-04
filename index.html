@@ -1,137 +1,310 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106314453-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments)};
-    gtag('js', new Date());
-    gtag('config', 'UA-106314453-1');
-    </script>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <title>Leigh & Liam</title>
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
-    <link href="icons/favicon.ico" rel="shortcut icon">
-    <link href="styles.css" rel="stylesheet" />
-</head>
-<body>
-    <div id="nav-right">
-        <h2 class="text-nav">
-            <a href="#media" class="nav-link">media</a>
-            <a href="#about" class="nav-link"> about</a>
-            <a href="#contact" class="nav-link">contact</a>
-            <a href="press.html" class="nav-link" target="_blank">press</a>
-        </h2>
-        <a href="https://www.youtube.com/channel/UCH3takQ_qOMFFtZdYOATEyg" target="_blank">
-            <img src="icons/youtube.svg" class="social-icon" alt="youtube">
-        </a>
-        <a href="https://www.instagram.com/leighandliam/" target="_blank">
-            <img src="icons/instagram.svg" class="social-icon" alt="instagram">
-        </a>
-        <a href="https://twitter.com/LeighAndLiam" target="_blank">
-            <img src="icons/twitter.svg" class="social-icon" alt="twitter">
-        </a>
-        <a href="https://www.facebook.com/leighandliam" target="_blank">
-            <img src="icons/facebook.svg" class="social-icon" alt="facebook">
-        </a>
-    </div>
-    <div id="main-left">
-        <img src="images/logo.png" id="huge" class="scrollBG" alt="logo">
-        <img src="images/logo.png" id="reg" alt="logo">
-    </div>
-    <div id="main-right">
-        <div id="right-content">
-            <span id="big-inits" class="scrollBG"><em>Leigh<br>
-            & Liam</em></span>
-            <h1 id="inits">L<em>&</em>L</h1><br>
-            <hr>
-            <h2><em>Vocals, Guitar</em> | Amber Leigh Trask<br>
-            <em>Vocals, Keys, Synths</em> | Andrew Liam Trask</h2><br><br>
-            <hr>
-            <h2>Tour Dates</h2><br><br>
-            <p class="press-text">
-                <span>
-                    <em>21 Feb, 2019</em> .... <strong>The Bullingdon, Oxford, UK</strong> .... <em><a href="https://www.facebook.com/events/357751241729404/" target="_blank">Details</a></em><br>
-                </span>
-                <span class="muted">
-                    <em>29 Jan, 2019</em> .... <strong>Sandy's Piano Bar, Oxford, UK</strong> .... <em><a href="https://www.facebook.com/events/799350837086684/" target="_blank">Details</a></em><br>
-                </span>
-                <span class="muted">
-                    <em>18 Jan, 2019</em> .... <strong>The Wheatsheaf, Oxford, UK</strong> .... <em><a href="https://www.facebook.com/events/307609339871869/" target="_blank"> Details</a></em><br>
-                </span>
-                <span class="muted">
-                    <em>28 Nov, 2018</em> .... <strong>The Cellar, Oxford, UK</strong> .... <em><a href="https://www.facebook.com/events/2059713860745508/" target="_blank">Details</a></em><br>
-                </span>
-                <span class="muted">
-                    <em>17 Oct, 2018</em> .... <strong>The Wheatsheaf, Oxford, UK</strong> .... <em><a href="https://www.facebook.com/events/286908715250295/" target="_blank">Details</a></em><br>
-                </span>
-                <span class="muted">
-                    <em>27 July, 2018</em> .... <strong>Common Ground Workspace, Oxford, UK</strong> .... <em><a href="https://www.facebook.com/events/2167363716834481/" target="_blank">Details</a></em><br>
-                </span>
-                <span class="muted">
-                    <em>3 July, 2018</em> .... <strong>Sandy's Piano Bar, Oxford, UK</strong> .... <em><a href="https://www.facebook.com/events/1834436843317059/" target="_blank">Details</a></em><br>
-                </span>
-                <br>
-                <a href="press.html"><button class="button small-button">Booking Info</button></a>
-            </p>
-        </div>
-    </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon.ico">
+    <title>Leigh & Liam: Official</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik|Unica+One" rel="stylesheet">
+    <link href="vendor/bootstrap.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+  </head>
 
+  <body>
 
-    <div id="media">
-        <iframe id="spotify" src="https://open.spotify.com/embed/artist/5ga9bvx0rA1qPqvKETWxFg" frameborder="0" allowtransparency="true"></iframe>
-        <div id="yt-contain">
-            <iframe id="youtube-player" src="https://www.youtube.com/embed/ov0CDsnPMKE" frameborder="10" allowfullscreen></iframe>
-            <div id="more-videos">
-                <a href="https://www.youtube.com/channel/UCH3takQ_qOMFFtZdYOATEyg/videos">
-                    <h2 id="" class="">more videos</h2>
-                </a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+            <a class="navbar-brand d-none d-lg-inline-block" href="#">
+            </a>
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
         </div>
-    </div>
-    <div id="about">
-        <img src="images/llcircle.png" id="ll-circle" class="scrollnext">
-        <div id="about-contain" class="scrollnext">
-            <p id="about-text"> Amber <em>Leigh</em> & Andrew <em>Liam</em> Trask
-                are based out of their narrowboat
-                home in Oxford, England.<br>
-                <br>
-                With their epic piano pop songs they mix together 
-                influences from classical to classic blues to create
-                a tone that backs a genuine story of the vulnerability
-                and strength of the human condition.
-            </p>
+
+        <div class="collapse navbar-collapse flex-grow-1" id="myNavbar">
+          <ul class="navbar-nav ml-auto flex-nowrap">
+              <li class="nav-item">
+                <a class="nav-link" href="#live-dates">Live</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#music-link">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#video-link">Video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="press.html" target="_blank">Press</a>
+              </li>
+          </ul>
         </div>
-    </div>
-    <div id="insta-embed">
-        <h1 id="check-us-out">check us out!</h1>
-        <div class="bigSM">
-          <a href="https://www.youtube.com/channel/UCH3takQ_qOMFFtZdYOATEyg" target="_blank">
-              <img src="icons/youtube.svg" class="big-social" alt="youtube">
+    </nav>
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <video id="video-background" preload="" muted="" autoplay="" loop="">
+          <source src="resources/BG.mp4" type="video/mp4">
+        </video>
+        <div class="container" style="color: #ffffff; text-align: center">
+          <h1 class="display-3" id="main-header">Leigh & Liam</h1>
+          <a href="https://www.youtube.com/channel/UCH3takQ_qOMFFtZdYOATEyg" target="_blank" class="social-link">
+              <img src="icons/youtube.svg" class="social-icon" alt="youtube">
           </a>
-          <a href="https://www.instagram.com/leighandliam/" target="_blank">
-              <img src="icons/instagram.svg" class="big-social" alt="instagram">
+          <a href="https://www.instagram.com/leighandliam/" target="_blank" class="social-link">
+              <img src="icons/instagram.svg" class="social-icon" alt="instagram">
           </a>
-          <a href="https://twitter.com/LeighAndLiam" target="_blank">
-              <img src="icons/twitter.svg" class="big-social" alt="twitter">
+          <a href="https://twitter.com/LeighAndLiam" target="_blank" class="social-link">
+              <img src="icons/twitter.svg" class="social-icon" alt="twitter">
           </a>
-          <a href="https://www.facebook.com/leighandliam" target="_blank">
-              <img src="icons/facebook.svg" class="big-social" alt="facebook">
+          <a href="https://www.facebook.com/leighandliam" target="_blank" class="social-link">
+              <img src="icons/facebook.svg" class="social-icon" alt="facebook">
           </a>
         </div>
-        <script src="https://lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://lightwidget.com/widgets/4ceb82e3126257f484136212fd7a333a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-    </div>
-    <div id="contact">
-        <div id="contact-contain">
-            <a href="mailto:leighandliamtrask@gmail.com?Subject=Hi%20Leigh%20&%20Liam!">
-                <h1 id="contact-us">contact us!</h1><br>
-                <img src="icons/email.svg" alt="email" id="email">
-            </a>
+      </div>
+      <div id="live-right" class="text-right">
+        <p>
+          <a id="see-us-live" class="btn btn-primary btn-small" href="#live-dates" role="button"><span style="padding-right: 8px;">⇩</span>See Us Live !<span style="padding-left: 8px;">⇩</span></a>
+        </p>
+      </div>
+
+
+      <div class="container" id="live-dates">
+        <h1>Live Dates</h1><br>
+        <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Leigh & Liam" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="true" data-text-color="#FFFFFF" data-link-color="#2260d6" data-background-color="rgba(0,0,0,0)" data-display-limit="15" data-display-logo="false" data-link-text-color="#FFFFFF" data-display-lineup="false" data-separator-color="rgba(124,124,124,0.25)" data-display-details="true"></a>
+      </div>
+      <div id="book-right" class="text-right">
+        <p>
+          <a id="booking-info" class="btn btn-primary btn-small" href="../press.html" role="button">Booking Info<span style="padding-left: 8px;">⇨</span></a>
+        </p>
+        <div id="video-link"></div>
+      </div>
+
+      <div class="container" id="video">
+        <button type="button" class="vid-btn" data-toggle="modal" data-target="#OSSModal">
+          <div class="img-wrap">
+            <img src="resources/OSS.png" class="vid-thumb image">
+            <div class="overlay">
+              <div class="text">"One Small Step"<br>Leigh & Liam<br>(Official)</div>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="vid-btn" data-toggle="modal" data-target="#SCModal">
+          <div class="img-wrap">
+            <img src="resources/SC.png" class="vid-thumb image">
+            <div class="overlay">
+              <div class="text">"Stone Cold"<br>Demi Lovato<br>(Cover)</div>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="vid-btn" data-toggle="modal" data-target="#RCLModal">
+          <div class="img-wrap">
+            <img src="resources/RCL.png" class="vid-thumb image">
+            <div class="overlay">
+              <div class="text">"Rose Colored Lenses"<br>Leigh & Liam<br>(Live in Paris)</div>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="vid-btn" data-toggle="modal" data-target="#CreepModal">
+          <div class="img-wrap">
+            <img src="resources/Creep.png" class="vid-thumb image">
+            <div class="overlay">
+              <div class="text">"Creep"<br>Radiohead<br>(Live Cover)</div>
+            </div>
+          </div>
+        </button>
+
+        <div class="modal fade" id="OSSModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/ov0CDsnPMKE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+
+        <div class="modal fade" id="SCModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/_9qXbZl92kc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="RCLModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/3IsPEEp8fmA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="CreepModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/oboyA42YIKw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div id="about-link"></div>
+      <div id="vid-right" class="text-right">
+        <p>
+          <a id="more-vid" class="btn btn-primary btn-small" href="https://www.youtube.com/channel/UCH3takQ_qOMFFtZdYOATEyg" role="button">More Videos<span style="padding-left: 8px;">⇨</span></a>
+        </p>
+        <div class="container text-left" id="about">
+          <h1>About Us</h1>
+          <p><em>Vocals, Keys, Synths</em> <span class="small" style="padding-left: 8px;">→</span><span style="padding-left: 8px;"> Andrew <em>Liam</em> Trask</span><br>
+               <em>Vocals, Guitar</em> <span class="small" style="padding-left: 8px;">→</span><span style="padding-left: 8px;"> Amber <em>Leigh</em> Trask</span></p><br>
+          <p>Amber <em>Leigh</em> & Andrew <em>Liam</em> Trask are based out of their narrowboat home in Oxford, England. With their epic piano pop songs they mix together influences from classical to classic blues to create a tone that backs a genuine story of the vulnerability and strength of the human condition.<br><br>
+
+          They met whilst making music in Nashville, Tennessee, and were married in May of 2015. Now that they're in the UK, don't be surprised if the video sways or you hear birdsong, as they do the majority of their music videos from their narrowboat home, somewhere in the English countryside.<br><br>
+
+          <em><strong>Sounds Like:</strong> The Civil Wars, Demi Lovato, Us the Duo</em></p><br><br><br>
+          <div id="music-link"></div>
+          <!-- <div class="row">
+            <div class="col-lg-6" style="text-align: center;" id="about-liam">
+                <img class="rounded-circle" src="resources/liam.png" alt="Generic placeholder image" width="220" height="220"><br><br>
+                <h3 >Andrew <em>Liam</em></h3>
+                <p><em>Vocals, Keys, Synths</em></p>
+            </div>
+            <div class="col-lg-6" style="text-align: center;" id="about-leigh">
+              <img class="rounded-circle" src="resources/leigh.png" alt="Generic placeholder image" width="220" height="220"><br><br>
+              <h3>Amber <em>Leigh</em></h3>
+              <p><em>Vocals, Guitar</em></p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="container" id="music">
+        <iframe class="sc-player-home" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/506047428&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <iframe class="sc-player-home" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/403538505&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <iframe class="sc-player-home" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/406480929&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <div id="contact-link"></div>
+        <div id="spotify-right" class="text-right">
+          <p>
+            <a id="spotify" class="btn btn-primary btn-small" href="https://open.spotify.com/artist/5ga9bvx0rA1qPqvKETWxFg?si=f-Ei6aFDSNe704hyGfprvw" role="button"><img src="icons/spotify.svg" id="spotify-icon"> Listen on Spotify<span style="padding-left: 8px;">⇨</span></a>
+          </p>
+        </div>
+      </div>
+
+      <div class="container" id="contact">
+        <h1 id="contact-head">Contact Us!</h1>
+        <p>
+          <a href="mailto:leighandliamtrask@gmail.com?subject=Email from L&L.com" class="text-blue">
+            <em>leighandliamtrask@gmail.com</em>
+          </a>
+        </p>
+        <a href="https://www.youtube.com/channel/UCH3takQ_qOMFFtZdYOATEyg" target="_blank" class="social-link">
+            <img src="icons/youtube-blue.svg" class="social-icon contact-social" alt="youtube">
+        </a>
+        <a href="https://www.instagram.com/leighandliam/" target="_blank" class="social-link">
+            <img src="icons/instagram-blue.svg" class="social-icon contact-social" alt="instagram">
+        </a>
+        <a href="https://twitter.com/LeighAndLiam" target="_blank" class="social-link">
+            <img src="icons/twitter-blue.svg" class="social-icon contact-social" alt="twitter">
+        </a>
+        <a href="https://www.facebook.com/leighandliam" target="_blank" class="social-link">
+            <img src="icons/facebook-blue.svg" class="social-icon contact-social" alt="facebook">
+        </a>
+        <div>
+          <form action="https://formspree.io/leighandliamtrask@gmail.com" method="POST">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="email" name="_replyto" placeholder="Email">
+            <textarea type="message" name="Message" placeholder="Message"></textarea>
+            <input type="hidden" name="_subject" value="L&L.com Contact Form Submission" />
+            <input type="submit" value="Send">
+          </form>
+        </div>
+      </div>
+      <div id="book-contact" class="text-right">
+        <p>
+          <a id="booking-info" class="btn btn-primary btn-small" href="../press.html" role="button">Booking Contact<span style="padding-left: 8px;">⇨</span></a>
+        </p>
+      </div>
+
+      <div id="insta-embed">
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5559abd88d785134aec14491708e5218.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+      </div>
+
+      
+
+      <footer class="container text-blue foot-contain">
+        <a href="https://www.youtube.com/channel/UCH3takQ_qOMFFtZdYOATEyg" target="_blank" class="social-link">
+            <img src="icons/youtube-blue.svg" class="social-icon footer-social" alt="youtube">
+        </a>
+        <a href="https://www.instagram.com/leighandliam/" target="_blank" class="social-link">
+            <img src="icons/instagram-blue.svg" class="social-icon footer-social" alt="instagram">
+        </a>
+        <a href="https://twitter.com/LeighAndLiam" target="_blank" class="social-link">
+            <img src="icons/twitter-blue.svg" class="social-icon footer-social" alt="twitter">
+        </a>
+        <a href="https://www.facebook.com/leighandliam" target="_blank" class="social-link">
+            <img src="icons/facebook-blue.svg" class="social-icon footer-social" alt="facebook">
+        </a>
+        <p>&copy; Leigh & Liam 2019, <a href="http://leighandliam.com/">leighandliam.com</a></p>
+      </footer>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><!-- 
+    <script>window.jQuery || document.write('<script src="vendor/jquery-slim.min.js"><\/script>')</script> -->
+    <script src="vendor/popper.min.js"></script>
+    <script src="vendor/bootstrap.min.js"></script>
     <script src="script.js"></script>
-</body>
+    <link href="end-styles.css" rel="stylesheet">
+  </body>
 </html>
