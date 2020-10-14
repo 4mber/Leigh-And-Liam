@@ -238,7 +238,6 @@ textarea[type=message]:hover {
 input[type=submit] {
   width: 85px;
   color: #102154;
-  padding-bottom: 8px;
   background-color: #44a3f7;
   border-color:#44a3f7;
   border-radius: 4px;
