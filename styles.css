@@ -11,6 +11,9 @@
 	margin-right: .75rem;
 	margin-left: .75rem;
 }
+#tag {
+	font-family: "Rubik", sans-serif;
+}
 /*#about-liam {
 	padding-left: 20%;
 }
