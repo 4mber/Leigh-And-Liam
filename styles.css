@@ -13,7 +13,8 @@
 }
 #tag {
 	font-family: "Rubik", sans-serif;
-	opacity: 0.8;
+	opacity: 0.6;
+	font-size: 1.25rem;
 }
 /*#about-liam {
 	padding-left: 20%;
@@ -38,7 +39,7 @@
 }
 #main-header {
 	font-size: 7rem;
-	margin-bottom: 20px;
+	margin-bottom: 3px;
 }
 #video {
 	background-color: #070a38;
