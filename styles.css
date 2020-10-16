@@ -483,6 +483,9 @@ a:hover {
   #main-header {
 	font-size: 5rem;
   }
+  #tag {
+	font-size: 1rem;
+  }
   #live-dates {
     padding: 120px 0px 25px 0px;
   }
@@ -542,6 +545,9 @@ a:hover {
 	}
 	#about {
     	padding: 40px 0px 120px 0px;
+	}
+	#tag {
+		font-size: 0.8rem;
 	}
 
 }
